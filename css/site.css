@@ -1,0 +1,92 @@
+a, a:hover, a:visited, a:focus, a:active {
+    color: #313131;
+    text-decoration: none;
+}
+
+.menu {
+    margin: auto;  
+}
+
+.menu a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu td {
+    padding: 5px 10px;
+}
+
+.banner {
+    display: block;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.announcements {
+    text-align: center;
+    padding: 50px 0 30px 0;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #b71010;
+}
+
+.about-us p {
+    max-width: 650px;
+    font-size: 12pt;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.about-us table {
+    margin: auto;
+    width: 650px;
+    margin-top: 30px;
+}
+
+.about-us td, .about-us th {
+    padding: 2px 5px 2px 0;
+}
+
+.about-us th {
+    font-size: 14pt;
+}
+
+.about-us td {
+    font-size: 12pt;
+}
+
+.about-us td:nth-child(3), 
+.about-us th:nth-child(3) {
+    padding-left: 50px;
+}
+
+.links table {
+    margin: 40px auto;
+}
+
+.links td {
+    text-align: center;
+    padding: 10px
+}
+
+
+.lunch-menu p, .dinner-menu p {
+    text-align: justify;
+}
+
+.lunch-menu {
+    max-width: 650px;
+    margin: 40px auto;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+
+.dinner-menu {
+    max-width: 650px;
+    margin: 40px auto;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
