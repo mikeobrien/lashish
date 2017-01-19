@@ -1,3 +1,3 @@
-Consumer Advisory
+**Consumer Advisory** Consuming raw or undercooked meats, poultry, seafood shellfish or eggs may increase your risk of foodborne illness.
 
-This item is served using raw or undercooked ingredients. Consuming raw or undercooked meats, poultry, seafood shellfish or eggs may increase your risk of foodborne illness 
+Copyright &copy; 2017 La Shish Mediterranean

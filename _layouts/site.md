@@ -12,58 +12,109 @@
 
 	<body>
 
-    <table class="menu"><tr>
-        <td><a href="#">HOME</a></td>
-        <td><a href="#lunch-menu">LUNCH MENU</a></td>
-        <td><a href="#dinner-menu">DINNER MENU</a></td>
-        <td><a href="#desserts">HOME MADE DESSERTS</a></td>
-        <td><a href="#wine">WINE</a></td>
-        <td><a href="#catering">CATERING</a></td>
-    </tr></table>
+        <table class="nav-menu"><tr>
+            <td><a href="#">HOME</a></td>
+            <td><a href="#lunch">LUNCH</a></td>
+            <td><a href="#dinner">DINNER</a></td>
+            <td><a href="#beer-wine">BEER & WINE</a></td>
+            <td><a href="#desserts">DESSERTS</a></td>
+            <td><a href="#catering">CATERING</a></td>
+        </tr></table>
 
-    <img class="banner" src="/img/banner.png" />
+        <img class="banner" src="/img/banner.png" />
 
-    <div class="container">
+        <div class="container">
 
-        <div class="announcements">
-        {% capture announcements %}{% include announcements.md %}{% endcapture %}
-        {{ announcements | markdownify }}
+            <div class="announcements">
+            {% capture announcements %}{% include announcements.md %}{% endcapture %}
+            {{ announcements | markdownify }}
+            </div>
+
+            {% capture about_us %}{% include about-us.md %}{% endcapture %}
+            {% capture hours %}{% include hours.md %}{% endcapture %}
+            {% capture contact_us %}{% include contact-us.md %}{% endcapture %}
+   
+            <div class="about-us">
+                <table>
+                    <tr>
+                        <td>{{ about_us | markdownify }}</td>
+                        <td><img src="img/patio.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td class="hours">{{ hours | markdownify }}</td>
+                        <td class="contact-us">{{ contact_us | markdownify }}</td>
+                    </tr>
+                </table>
+            </div>
+
+            <img class="banner-divider" src="img/banner-lunch.png" />
+
+            <div id="lunch">
+                <h3 class="section">Lunch Menu</h3>
+                <div class="menu" id="lunch-menu">
+                {% capture lunch %}{% include lunch.md %}{% endcapture %}
+                {{ lunch | markdownify }}
+                </div>
+            </div>
+
+            <img class="banner-divider" src="img/banner-dinner.png" />
+
+            <div id="dinner">
+                <h3 class="section">Dinner Menu</h3>
+                <div class="menu">
+                {% capture dinner %}{% include dinner.md %}{% endcapture %}
+                {{ dinner | markdownify }}
+                </div>
+            </div>
+
+            <img class="banner-divider" src="img/banner-beer-wine.png" />
+
+            <div id="beer-wine">
+                <h3 class="section">Beer & Wine</h3>
+                <div class="menu">
+                {% capture beer_wine %}{% include beer-wine.md %}{% endcapture %}
+                {{ beer_wine | markdownify }}
+                </div>
+            </div>
+
+            <img class="banner-divider" src="img/banner-dessert.png" />
+
+            <div id="desserts">
+                <h3 class="section">Desserts</h3>
+                <div class="menu">
+                {% capture desserts %}{% include desserts.md %}{% endcapture %}
+                {{ desserts | markdownify }}
+                </div>
+            </div>
+
+            <img class="banner-divider" src="img/banner-catering.png" />
+
+            <div id="catering">
+                <h3 class="section">Catering</h3>
+                <div class="menu">
+                {% capture catering %}{% include catering.md %}{% endcapture %}
+                {{ catering | markdownify }}
+                </div>
+            </div>
+
+            <div class="links">
+            <table>
+            <tr>
+                <td><a href="https://www.facebook.com/La-Shish-Mediterranean-Cafe-293742396866/"><img src="/img/facebook.png" /></a></td>
+                <td><a href="https://www.tripadvisor.com/Restaurant_Review-g49007-d446321-Reviews-La_Shish_Greek_Lebanese_Cafe-Cary_North_Carolina.html"><img src="/img/trip-advisor.png" /></a></td>
+                <td><a href="https://www.yelp.com/biz/la-shish-cary"><img src="/img/yelp.png" /></a></td>
+            </tr>
+            </table>
+            </div>
+
+            <div class="footer">
+            {% capture footer %}{% include footer.md %}{% endcapture %}
+            {{ footer | markdownify }}
+            </div>
+
         </div>
-
-        <div class="about-us">
-        {% capture about_us %}{% include about-us.md %}{% endcapture %}
-        {{ about_us | markdownify }}
-        </div>
-
-        <div class="links">
-        <table>
-        <tr>
-            <td><a href="https://www.facebook.com/La-Shish-Mediterranean-Cafe-293742396866/"><img src="/img/facebook.png" /></a></td>
-            <td><a href="https://www.tripadvisor.com/Restaurant_Review-g49007-d446321-Reviews-La_Shish_Greek_Lebanese_Cafe-Cary_North_Carolina.html"><img src="/img/trip-advisor.png" /></a></td>
-            <td><a href="https://www.yelp.com/biz/la-shish-cary"><img src="/img/yelp.png" /></a></td>
-        </tr>
-        </table>
-        </div>
-
-        <div class="lunch-menu" id="lunch-menu">
-        {% capture lunch_menu %}{% include lunch-menu.md %}{% endcapture %}
-        {{ lunch_menu | markdownify }}
-        </div>
-
-        <div class="dinner-menu" id="dinner-menu">
-        {% capture dinner_menu %}{% include dinner-menu.md %}{% endcapture %}
-        {{ dinner_menu | markdownify }}
-        </div>
-
-        <div class="footer">
-        {% capture footer %}{% include footer.md %}{% endcapture %}
-        {{ footer | markdownify }}
-        </div>
-
-
-    </div>
 
 	</body>
-    <script src="/js/bootstrap.js"></script>
     <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
 </html>
