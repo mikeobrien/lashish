@@ -29,6 +29,8 @@ a, a:hover, a:visited, a:focus, a:active {
     font-size: 16pt;
     font-weight: bold;
     color: #b71010;
+    max-width: 650px;
+    margin: 0 auto;
 }
 
 .about-us p {
