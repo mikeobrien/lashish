@@ -1,2 +1,1 @@
-We will be closed for lunch Wednesday February 15th for catering a local business event. We're very sorry for this and your understanding of the current shortage of good and dependable staff. As always, we pride ourselves with fresh, consistent, wholesome meals with friendly staff. So please bare with us, and if you know of someone please refer them to us during the hours of 11 to 3 or 5:30 to 7. Thanks for all your support and business!
-<!-- We will be closed for lunch Thursday December 29th for a family emergency. We apologize for any inconvenience and how hope to see you again!-->
+We will be closed for dinner Thursday March, 2nd for catering. We apologize for any inconvenience and how hope to see you again!
