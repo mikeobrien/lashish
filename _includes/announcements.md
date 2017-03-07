@@ -1,1 +1,1 @@
-We will be closed for dinner Thursday March, 2nd for catering. We apologize for any inconvenience and how hope to see you again!
+We will be closed Tuesday March, 7th for catering. We apologize for any inconvenience and how hope to see you again!
