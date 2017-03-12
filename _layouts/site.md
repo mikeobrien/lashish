@@ -25,10 +25,9 @@
 
         <div class="container">
 
-            <div class="announcements">
-            {% capture announcements %}{% include announcements.md %}{% endcapture %}
-            {{ announcements | markdownify }}
-            </div>
+            {% for post in site.posts limit:5 %}
+                <div data-timestamp="{{ post.date | date: "%m-%d-%Y" }}" class="announcement hidden">{{ post.content }}</div>
+            {% endfor %}
 
             {% capture about_us %}{% include about-us.md %}{% endcapture %}
             {% capture hours %}{% include hours.md %}{% endcapture %}
@@ -117,4 +116,5 @@
 	</body>
     <script src="/js/jquery.js"></script>
     <script src="/js/bootstrap.js"></script>
+    <script src="/js/site.js"></script>
 </html>

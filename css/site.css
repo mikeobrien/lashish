@@ -19,13 +19,13 @@ a, a:hover, a:visited, a:focus, a:active {
 
 .banner {
     display: block;
-    padding-top: 40px;
+    padding: 40px 0 50px;
     margin: auto;
 }
 
-.announcements {
+.announcement {
     text-align: center;
-    padding: 50px 0 30px 0;
+    padding-bottom: 30px;
     font-size: 16pt;
     font-weight: bold;
     color: #b71010;
