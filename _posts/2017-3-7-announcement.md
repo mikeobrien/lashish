@@ -1,1 +1,0 @@
-We will be closed Tuesday March, 7th for catering. We apologize for any inconvenience and how hope to see you again!
