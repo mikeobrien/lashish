@@ -1,0 +1,1 @@
+We will be closed for dinner Thursday May, 18th for a family event, but we will promise you that from next week on we will be open normal business hours since we've trained and added more staff. We thank you for your patience, understanding and business.
