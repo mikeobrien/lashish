@@ -1,1 +1,0 @@
-We will be closed for labor day. Sorry for the inconvenience, we hope to see you soon!
