@@ -1,0 +1,1 @@
+We will be closed tonight for catering a Wedding, we are very sorry for the inconvenience, we will be open regular business hours tomorrow, Saturday the 10th.
